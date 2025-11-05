@@ -1,0 +1,270 @@
+section {
+    min-height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+   min-height: 550px; 
+}
+/* Section 1 */
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0faff;
+    align-items: center;
+}
+
+.section1 h2 {
+    color: #0ea5e9;
+    border-left: 5px solid #0ea5e9;
+    padding-left: 10px;
+    width: 780px;
+}
+
+.box {
+    background-color: #0ea5e9;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 780px;
+}
+/* Section 2 */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #e5f8e4;
+}
+
+.section2 h2 {
+    color: #1c9b5a;
+    border-left: 5px solid #1c9b5a;
+    padding-left: 10px;
+}
+
+.section2 h3 {
+    color: #1c9b5a;
+    font-size: clamp(1.5rew, 5vw, 3rem);
+}
+/* Section 3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf2dd;
+}
+
+.section3 h2 {
+
+    color: #f7b708;
+    border-left: 5px solid #f7b708;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.caixa {
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    border: 2px solid rgb(190, 185, 185);
+}
+
+.caixa span {
+    font-weight: bold;
+}
+
+/* Section 4 */
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0e4f8;
+}
+
+.section4 h2 {
+    color: #731c9b;
+    border-left: 5px solid #731c9b;
+    padding-left: 10px;
+    text-align: center;
+    padding: 8px;
+}
+
+img {
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.legenda {
+    border-radius: 10px;
+    width: 600px;
+    background-color: #ffffff;
+}
+
+.legenda p {
+    text-align: center;
+}
+
+/* Section 5 */
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8e4e4;
+    align-items: center;
+}
+
+.section5 h2 {
+    color: #a32014;
+    border-left: 5px solid #a32014;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 310px;
+    height: 320px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.cards {
+    width: 270px;
+    height: 70px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    padding: 15px 20px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Section 6 */
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e4f8ef;
+    align-items: center;
+}
+
+.section6 h2 {
+    color: #14a37d;
+    border-left: 5px solid #14a37d;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.cardVerde {
+    width: 270px;
+    height: 70px;
+    background-color: #14a37d;
+    border-radius: 12px;
+    padding: 1px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 360px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid rgb(223, 219, 219);
+}
+
+.cardVerde h4 {
+    color: white;
+    text-align: center;
+}
+
+/* Section 7 */
+.section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dedada;
+    align-items: center;
+    gap: 10px;
+}
+
+.section7 h2 {
+    color: gray;
+    border-left: 5px solid gray;
+    padding-left: 10px;
+    text-align: center;
+}
+
+button{
+     margin-right: 20px;
+}
+#botao {
+    background-color: gray;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer
+}
+
+#botaoLink {
+    background-color: white;
+    color: gray;
+    border-radius: 12px;
+    padding: 20px 30px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+}
+
+#botaoLink:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* Section 8 */
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8e4e4;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section8 h2 {
+    color: #a32014;
+    border-left: 5px solid #a32014;
+    padding-left: 10px;
+    text-align: start;
+    width: 660px;
+}
+
+.cardVermelho {
+    display: inline-flex;
+    width: 70px;
+    height: 130px;
+    background-color: #d37971;
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.cardVermelho h3 {
+    margin: 0;
+    text-align: center;
+}
